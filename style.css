@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    font-family: 'Mulish', sans-serif;
+}
+#mainbox{
+    font-size: 40px;
+    cursor: pointer;
+    transition: all .6s;
+    margin-left: 85vw !important;
+    color: white;
+}
+.sidemenu{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 0px;
+    background-color: white;
+    z-index: 1;
+    padding-top: 100px;
+    overflow-x: hidden;
+    /* padding: 40px 40px;  */
+    transition: all .5s;
+}
+.sidemenu a{
+    /* padding: 8px 8px 8px 64px; */
+    padding: 40px 40px;
+    font-weight: 300;
+    line-height: 47.6px;
+    text-decoration: none;
+    font-size: 38px;
+    color: white;
+    display: block;
+}
+.menu{
+    padding: 80px;
+}
+.sidemenu a{
+    color: Black;
+}
+.sidemenu .closebtn{
+    position: absolute;
+    top: 0px;
+    right: 25px;
+    font-size: 50px;
+    margin-left: 32px;
+}
